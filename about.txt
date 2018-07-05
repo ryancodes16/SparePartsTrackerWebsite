@@ -1,0 +1,16 @@
+Replaces Spare Parts Tracker original application.
+
+Advantages:
+
+*Cross platform
+*Online access
+*No downloads required
+*Can resuse a lot of the old code
+
+
+Disadvantages:
+
+*Had to scrap old application
+*Rework designs and goals
+*Django issues
+*Learn about back-end (already know how to make a front-end application)
