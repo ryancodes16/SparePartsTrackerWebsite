@@ -4,6 +4,9 @@
 <title>Spare Parts Tracker</title>
 </head>
 <body>
+<script>
+	alert("Welcome to Trackers: Spare Parts Edition!");
+</script>
 <style>
 /* Style The Dropdown Button */
 .dropbtn {
@@ -94,5 +97,21 @@
 <p>Placeholders</p>
 <button>Click to begin</button>
 <img src="Epiq.png" alt="epiqsolutions.com" width="500" height="600" class="mainImage">
+<form>
+  <h1> Select which operation you would like to perform and click submit when done </h1>
+  <input type="radio" name="option" value="add" checked> Add Part<br>
+  <input type="radio" name="option" value="view"> View Parts List<br>
+  <input type="radio" name="option" value="update"> Update Parts List <br>
+  <input type="submit" value="Submit">
+</form>
+<form action="addParts.html">
+    <input type="submit" value="Click to Add Parts" />
+</form>
+<form action="viewParts.html">
+    <input type="submit" value="Click to View Parts List" />
+</form>
+<form action="updateParts.html">
+    <input type="submit" value="Click to Update Parts" />
+</form>
 </body>
 </html>
