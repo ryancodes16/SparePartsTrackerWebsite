@@ -3,6 +3,8 @@
 <head>
 <title>Spare Parts Tracker</title>
 <link rel="stylesheet" href="trackers.css">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
 <script>
 	alert("Welcome to Trackers: Spare Parts Edition!");
 </script>
@@ -60,7 +62,7 @@
   <button class="dropbtn">Menu</button>
   <div class="dropdown-content">
 	<a href="index.html">Home</a>
-    <a href="https://www.epiqsolutions.com">Epiq's Website</a>
+    <a href="https://www.epiqsolutions.com" target="_blank">Epiq's Website</a>
 	<a href="trackers.html">Trackers</a>
 	<a href="download.html">Download</a>
     <a href="about.html">About Me</a>
@@ -73,7 +75,7 @@
 <br>
 <form action="action_page.php">
   <div class="imgcontainer">
-    <img src="avatar.png" alt="Avatar" width="500" height="500" class="avatar">
+    <img src="avatar.png" alt="Avatar" width="200" height="500" class="avatar">
   </div>
 
   <div class="container">
@@ -92,30 +94,24 @@
   <div class="container" style="background-color:#f1f1f1">
     <button type="button" class="cancelbtn">Cancel</button>
     <span class="psw">Forgot <a href="#">password?</a></span>
-	<form>
-		<input type="reset" value="Reset">
-	</form>
+	<!--<button type="button" class="resetbtn">Reset</button> -->
   </div>
 </form>
+<!--
 <h1>Trackers</h1>
 <p>Placeholders</p>
 <button>Click to begin</button>
+-->
 <img src="Epiq.png" alt="epiqsolutions.com" width="500" height="600" class="mainImage">
-<form>
-  <h1> Select which operation you would like to perform and click submit when done </h1>
-  <input type="radio" name="option" value="add" checked> Add Part<br>
-  <input type="radio" name="option" value="view"> View Parts List<br>
-  <input type="radio" name="option" value="update"> Update Parts List <br>
-  <input type="submit" value="Submit">
-</form>
+<h1>
 <form action="addParts.html">
-    <input type="submit" value="Click to Add Parts" />
+    <input style="font-size: 50px;" type="submit" value="Click to Add Parts" />
 </form>
 <form action="viewParts.html">
-    <input type="submit" value="Click to View Parts List" />
+    <input style="font-size: 50px;" type="submit" value="Click to View Parts List" />
 </form>
 <form action="updateParts.html">
-    <input type="submit" value="Click to Update Parts" />
-</form>
+    <input style="font-size: 50px;" type="submit" value="Click to Update Parts" />
+</form></h1>
 </body>
 </html>
