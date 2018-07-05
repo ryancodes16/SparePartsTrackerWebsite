@@ -1,3 +1,6 @@
+body {
+    background-image: url("lilskies.jpeg");	
+}
 /* Bordered form */
 form {
     border: 3px solid #f1f1f1;
@@ -69,3 +72,4 @@ span.psw {
         width: 100%;
     }
 }
+

@@ -21,3 +21,7 @@ ul.share-buttons .sr-only{
 ul.share-buttons img{
   width: 32px;
 }
+body {
+    background-image: url("lilskies.jpeg");
+	
+}
